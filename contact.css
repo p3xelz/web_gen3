@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --background-white--: #fff;
+    --background-gray--: #AAAAAA;
+    --color-text-white--: #fff;
+    --blue-main--: #2C74B3;
+    --light-gray--:#F1EFEC;
+}
+
+/* ===============NAV================= */
+.navigation {
+    position: sticky;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    background-color: var(--background-white--);
+    z-index: 999;
+}
+
+.container_nav {
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    background-color: var(--background-white--);
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_list {
+    display: flex;
+}
+
+.list a {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.menu_list a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+}
+
+.menu_list a:after {
+    content: "";
+    position: absolute;
+    background-color: var(--blue-main--);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.menu_list a:hover:after {
+    width: 100%;
+}
+
+.list a,
+.menu li {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+.dropdown_content_ourwork {
+    display: none;
+    position: absolute;
+    padding: 20px 0px;
+}
+
+.dropdown_content_ourwork ul li {
+    padding: 10px 25px;
+    background: var(--background-white--);
+}
+
+.dropdown_content_ourwork ul li:hover {
+    background: var(--background-gray--);
+    transition: .4s;
+}
+
+.dropdown:hover .dropdown_content_ourwork {
+    display: block;
+}
+
+.hamberger {
+    display: none;
+}
+
+.hamberger i {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+@media screen and (max-width:550px) {
+
+    /* .navigation{
+        height: auto;
+    }
+    .container_nav{
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+    .container_logo{
+        padding: 20px 0;
+        font-size: 2rem;
+    }
+    .menu_list{
+        padding-bottom:20px;
+        flex-direction: column;
+        text-align: center;
+    } */
+    .menu_list .list {
+        display: none;
+    }
+
+    .menu_list li {
+        padding-bottom: 20px;
+    }
+
+    .hamberger {
+        display: block;
+    }
+}
+
+/* ==============NAV================ */
+
+
+
+
+
+/* ========FOOTER AREA =========== */
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    color: #001219;
+    padding: 20px 40px;
+}
+.container-footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: grid;
+    background: #fff;
+    grid-template-columns: 2fr 1fr 1fr 1fr ;
+    grid-gap: 20px;
+}
+.sec h2{
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.sec p{
+    color: #001219;
+    font-size: .85rem;
+    font-weight: 300;
+}
+.sci{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+}
+.sci li a {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    background: #001219;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.sci li a i {
+    color: #fff;
+    font-size: 1rem;
+}
+.line_icon{
+  font-size: 1rem;
+  color: #fff;
+}
+.quicklink i {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+.quicklink a {
+    color: #555;
+    font-size: .85rem;
+}
+.copyrightText{
+    width: 80%;
+    color: #c0bebe;
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+.title_about_footer{
+    text-indent: 2em;
+}
+@media (max-width:991px){
+    footer{
+        padding: 40px;
+    }
+    footer .container-footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+    .copyrightText{
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    footer .container-footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+    }
+}
+/* ========FOOTER AREA =========== */
