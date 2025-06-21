@@ -153,7 +153,7 @@
     background: var(--light-gray--);
     text-align: center;
     align-content: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 .head_content{
     font-size: 2.25rem;
@@ -248,14 +248,16 @@
 #btn_back:hover , #btn_next:hover{
     color: var(--blue-main--);
 }
-@media (max-width:991px){
-
-}
 @media (max-width:768px){
     .column_product{
         grid-template-columns: 1fr;
         align-items: center;
         max-width: 400px;
+    }
+}
+@media (max-width:480px){
+    #btn_back , #btn_next{
+        display: none;
     }
 }
 /* ========CONTENT AREA=========== */
