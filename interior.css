@@ -121,11 +121,17 @@
     list-style: none;
 }
 
+#close-auto{
+    display: none;
+}
+#close-auto ~ #menu {
+    display: none;
+}
 @media screen and (max-width:768px) {
     .hamberger{
         display: inline-flex;
     }
-    #check:checked~.container_nav #menu-icon{
+    #check:checked ~ #menu {
         display: none;
     }
     #menu{
@@ -137,12 +143,13 @@
         background: var(--background-white--);
     }
     .menu_list {
+        display: block;
         flex-direction: column;
     }
     .list {
         width: 100%;
         font-size: 1.1rem;
-        margin: .75rem 0;
+        margin: 1.75rem 0;
     }
     .dropdown:hover .dropdown_content_ourwork {
         display: inline-flex;

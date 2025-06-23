@@ -9,39 +9,40 @@
 </head>
 <body>
     <!-- ==============NAV============= -->
-    <nav class="navigation">
+        <nav class="navigation">
         <div class="container_nav">
             <div class="container_logo">
-                RICCO 65
+                <img src="images/RICCO65.png" width="125px">
             </div>
-            <div class="menu">
-                <ul class="menu_list">
-                    <li class="list"><a href="index.html">HOME</a></li>
-                    <li class="list"><a href="Aboutus.html">ABOUT US</a></li>
-                    <li class="list dropdown">
-                        <a href="OurWork.html">OUR WORK<i class="ri-arrow-down-s-fill"></i></a>
-                        <div class="dropdown_content_ourwork">
-                            <ul>
-                                <li><a href="Interior.html">Interior / Launch zone</a></li>
-                                <li><a href="Media.html">Media</a></li>
-                                <li><a href="Signage.html">Signage</a></li>
-                                <li><a href="Display.html">Display</a></li>
-                            </ul>
-                        </div>
-                    </li>
+            <input type="checkbox" id="check">
+            <label for="check" class="hamberger">
+                <i id="menu-icon" class="ri-menu-line"></i>
+            </label>
+            <div id="menu">
+                    <ul class="menu_list">
+                        <li class="list"><a href="index.html">หน้าหลัก</a></li>
+                        <li class="list"><a href="Aboutus.html">เกี่ยวกับเรา</a></li>
+                        <li class="list dropdown">
+                            <a href="OurWork.html">งานของพวกเรา<i class="ri-arrow-down-s-fill"></i></a>
+                            <div class="dropdown_content_ourwork">
+                                <ul>
+                                    <li><a href="Interior.html">การตกแต่งภายใน / โซนเปิดตัวสินค้า</a></li>
+                                    <li><a href="Media.html">อุปกรณ์แสดงผล</a></li>
+                                    <li><a href="Signage.html">งานป้าย</a></li>
+                                    <li><a href="Display.html">อุปกรณ์จัดโชว์</a></li>
+                                </ul>
+                            </div>
+                        </li>
 
-                    <li class="list"><a href="#">CONTACT</a></li>
-                    <li class="list dropdown">
-                        <a href="#">TH<i class="ri-arrow-down-s-fill"></i></a>
-                        <div class="dropdown_content_ourwork">
-                            <ul>
-                                <li>EN</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="hamberger">
-                    <li><a href=""><i class="ri-menu-line"></a></i></li>
+                        <li class="list"><a href="contact.html">ติดต่อ</a></li>
+                        <li class="list dropdown1">
+                            <a href="#">TH<i class="ri-arrow-down-s-fill"></i></a>
+                            <div class="dropdown_content_ourwork">
+                                <ul>
+                                    <li>EN</li>
+                                </ul>
+                            </div>
+                        </li>
                 </ul>
             </div>
         </div>
@@ -56,13 +57,16 @@
     <!-- ======== GALLERY AREA =========-->
    <div class="content_container1">
         <div class="content_head">
-            <h1 class="head_content">Our Work</h1>
+            <h2 class="head_content">
+                <span class="num1">งานของ</span>
+                <span class="num2">พวกเรา</span>
+            </h2>
             <div id="menu_list">
-                <button class="list_btn list_active" onclick="filterSelection('all')">VIEW ALL</button>
-                <button class="list_btn " onclick="filterSelection('Interior')">INTERIOR / LAUNCH ZONE</button>
-                <button class="list_btn " onclick="filterSelection('media')">MEDIA</button>
-                <button class="list_btn " onclick="filterSelection('signage')">SIGNAGE</button>
-                <button class="list_btn " onclick="filterSelection('display')">DISPLAY</button>
+                <button class="list_btn list_active" onclick="filterSelection('all')">ดูทั้งหมด</button>
+                <button class="list_btn " onclick="filterSelection('Interior')">การตกแต่งภายใน / โซนเปิดตัวค้า</button>
+                <button class="list_btn " onclick="filterSelection('media')">อุปกรณ์แสดงผล</button>
+                <button class="list_btn " onclick="filterSelection('signage')">งานป้าย</button>
+                <button class="list_btn " onclick="filterSelection('display')">อุปกรณ์จัดโชว์</button>
             </div>
             <div class="column_product">
                 <a href="Interior.html">
@@ -98,7 +102,7 @@
     </div>
     <div class="btn-View_all">
         <button class="btn_other_product">
-                <a href="OurWork.html"><p>ดูทั้งหมด</p></a>    
+                <a href="OurWork.html"><p>เพิ่มเติม</p></a>    
         </button>
     </div>
     <!-- ======== GALLERY AREA =========-->
@@ -111,7 +115,7 @@
     <footer>
             <div class="container-footer">
                <div class="sec aboutus">
-                  <h2>About Us</h2>
+                  <h2>เกี่ยวกับเรา</h2>
                   <p class="title_about_footer">บริษัท ริคโค่65 จำกัด ให้บริการอย่างมืออาชีพในด้านงานตกแต่ง งานแสดงสินค้า ป้ายโฆษณา บริการเช่า และการออกแบบพื้นที่ ด้วยประสบการณ์และความเชี่ยวชาญเชิงปฏิบัติ เราส่งมอบผลงานคุณภาพในราคาคุ้มค่า ตามสโลแกนของเรา “On the Journey from Good to Great”</p>
                   <ul class="sci">
                      <li><a href="https://www.facebook.com/RiccoSixtyFive/" target="_blank"><i class="ri-facebook-circle-fill"></i></a></li>
@@ -123,19 +127,19 @@
                <div class="sec quicklink">
                   <h2>เมนู</h2>
                      <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="Aboutus.html">About us</a></li>
-                        <li><a href="OurWork.html">Our Work</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><a href="index.html">หน้าหลัก</a></li>
+                        <li><a href="Aboutus.html">เกี่ยวกับเรา</a></li>
+                        <li><a href="OurWork.html">งานของพวกเรา</a></li>
+                        <li><a href="">ติดต่อ</a></li>
                      </ul>
                </div>
                <div class="sec quicklink">
                   <h2>งานของพวกเรา</h2>
                      <ul>
-                        <li><a href="Interior.html">Interior / Launch zone</a></li>
-                                <li><a href="Media.html">Media</a></li>
-                                <li><a href="Signage.html">Signage</a></li>
-                                <li><a href="Display.html">Display</a></li>
+                        <li><a href="">การตกแต่งภายใน / โซนเปิดตัวสินค้า</a></li>
+                        <li><a href="">อุปกรณ์แสดงผล</a></li>
+                        <li><a href="">งานป้าย</a></li>
+                        <li><a href="">อุปกรณ์จัดโชว์</a></li>
                      </ul>
                </div>
                <div class="sec quicklink">
