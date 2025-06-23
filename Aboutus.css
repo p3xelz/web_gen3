@@ -162,6 +162,20 @@
 
 
 
+/* ========BANNER AREA =========== */
+.image_banner{
+    width: 100%;
+}
+.image_banner img {
+    width: 100%;
+    object-fit: cover;
+}
+/* ========BANNER AREA =========== */
+
+
+
+
+
 /* ========FOOTER AREA =========== */
 footer{
     position: relative;
