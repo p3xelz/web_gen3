@@ -132,9 +132,10 @@
         display: inline-flex;
     }
     #check:checked ~ #menu {
-        display: none;
+        display: block;
     }
     #menu{
+        display: none;
         position: absolute;
         padding: 0 5%;
         top: 100%;

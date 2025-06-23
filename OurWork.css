@@ -121,20 +121,16 @@
     list-style: none;
 }
 
-#close-auto{
-    display: none;
-}
-#close-auto ~ #menu {
-    display: none;
+
+#check:checked ~ #menu {
+    display: block;
 }
 @media screen and (max-width:768px) {
     .hamberger{
         display: inline-flex;
     }
-    #check:checked ~ #menu {
-        display: none;
-    }
     #menu{
+        display: none;
         position: absolute;
         padding: 0 5%;
         top: 100%;

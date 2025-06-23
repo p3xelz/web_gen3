@@ -135,6 +135,7 @@
         display: none;
     }
     #menu{
+        display: block;
         position: absolute;
         padding: 0 5%;
         top: 100%;
