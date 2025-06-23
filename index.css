@@ -478,6 +478,7 @@
 }
 
 .column_contact2 {
+    padding: 20px;
     width: 100%;
 }
 .column{
@@ -501,6 +502,15 @@
     margin: 5px;
     color: #555;
     font-size: 10px;
+}
+@media (max-width:768px){
+    .contact_main{
+        display: grid;
+        grid-template-columns: 1fr / 1fr;
+    }
+    .icons {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 /* ========CONTACT AREA =========== */
 
