@@ -478,7 +478,7 @@
 }
 
 .column_contact2 {
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 .column{
@@ -510,6 +510,22 @@
     }
     .icons {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width:500px){
+    .contact_main{
+        display: grid;
+        grid-template-columns: 1fr / 1fr;
+    }
+    .icons {
+    grid-template-columns: 1fr 1fr;
+    }
+    .column{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container_img_contact2 img{
+        width: 100%;
     }
 }
 /* ========CONTACT AREA =========== */
