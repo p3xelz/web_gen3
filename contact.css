@@ -203,6 +203,11 @@
     font-size: .8rem;
     color: #555;
 }
+@media (max-width:768px){
+    .column{
+    grid-template-columns: 1fr;
+}
+}
 /* ========CONTENT AREA =========== */
 
 
