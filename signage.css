@@ -580,7 +580,7 @@
     }
 }
 @media (max-width:480px){
-    #btn_back , #btn_next{
+    #btn_back2 , #btn_next2{
         display: none;
     }
 }
