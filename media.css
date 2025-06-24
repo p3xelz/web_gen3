@@ -177,6 +177,7 @@
     color: var(--blue-main--);
 }
 .title_content{
+    font-size: 12px;
     padding-bottom: 20px;
 }
 .con_slides{
