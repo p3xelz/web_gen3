@@ -268,7 +268,7 @@
 .list_active{
     color: #2C74B3;
 }
-@media (max-width:768px){
+@media (max-width:1024px){
     .container_image {
         width: 50%;
     }
