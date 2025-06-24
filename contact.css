@@ -166,10 +166,10 @@
 /* ========CONTENT AREA =========== */
 .content_contact{
     width: 100%;
-    height: 65vh;
+    height: 90vh;
 }
 .container_contact{
-    max-width: 1300px;
+    max-width: 1000px;
     padding-top: 100px;
     width: 90%;
     align-items: center;
@@ -183,13 +183,24 @@
 .column{
     padding-top: 70px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.link_all{
+    align-items: center;
+    align-content: center;
+}
+.list_contact {
+    margin-bottom: 30px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 .list_contact i{
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: #000;
 }
 .list_contact p{
+    font-size: .8rem;
     color: #555;
 }
 /* ========CONTENT AREA =========== */
