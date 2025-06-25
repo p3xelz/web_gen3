@@ -10,10 +10,10 @@ function setupGallery1() {
   });
 
   btn_back.addEventListener("click", () => {
-    scrollContainer.scrollLeft -= 900;
+    scrollContainer.scrollLeft -= 300;
   });
   btn_next.addEventListener("click", () => {
-    scrollContainer.scrollLeft += 900;
+    scrollContainer.scrollLeft += 300;
   });
 
   const gallery = document.querySelectorAll(".column_product .container_image"),

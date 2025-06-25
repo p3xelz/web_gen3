@@ -16,6 +16,7 @@
     --color-text-white--: #fff;
     --blue-main--: #2C74B3;
     --light-gray--:#F1EFEC;
+    --black-blue--:#18459b;
 }
 
 /* ===============NAV================= */
@@ -196,6 +197,7 @@ footer{
 }
 .sec h2{
     position: relative;
+    color: var(--black-blue--);
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 15px;
@@ -215,7 +217,7 @@ footer{
     width: 26px;
     height: 26px;
     border-radius: 5px;
-    background: #001219;
+    background: var(--blue-main--);
     display: grid;
     align-content: center;
     justify-content: center;
@@ -223,10 +225,6 @@ footer{
 .sci li a i {
     color: #fff;
     font-size: 1rem;
-}
-.line_icon{
-  font-size: 1rem;
-  color: #fff;
 }
 .quicklink i {
     font-size: 1rem;
@@ -245,6 +243,9 @@ footer{
 }
 .title_about_footer{
     text-indent: 2em;
+}
+.info_foot i {
+    color: var(--blue-main--);
 }
 @media (max-width:991px){
     footer{
