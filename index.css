@@ -16,6 +16,7 @@
     --color-text-white--: #fff;
     --blue-main--: #2C74B3;
     --light-gray--:#F1EFEC;
+    --black-blue--:#18459b;
 }
 
 /* ===============NAV================= */
@@ -304,6 +305,13 @@
     color: var(--blue-main--);
     font-size: 3rem;
 }
+.num1{
+    font-size: 2.25rem;
+}
+.num3{
+    font-size: 2.25rem;
+    color: var(--blue-main--);
+}
 .title_content{
     padding-bottom: 20px;
 }
@@ -357,6 +365,18 @@
     opacity: 0;
     transition: .5s;
 }
+.text-title p{
+    color: #000;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: .4s;
+}
+.text-title p:hover{
+    color: var(--blue-main--);
+    transition: .4s;
+}
+
 .btn_other_product{
     margin-top: 20px;
     background: var(--background-gray--);
@@ -559,6 +579,7 @@ footer{
 }
 .sec h2{
     position: relative;
+    color: var(--black-blue--);
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 15px;
