@@ -172,6 +172,55 @@
     width: 100%;
     object-fit: cover;
 }
+.num4{
+    font-size: 3rem;
+}
+.num2{
+    color: var(--blue-main--);
+    font-size: 3rem;
+}
+.num1{
+    font-size: 2.25rem;
+}
+.num3{
+    font-size: 2.25rem;
+    color: var(--blue-main--);
+}
+.Intro_container {
+    align-content: center;
+    width: 100%;
+    padding-top: 70px;
+    background: var(--background-white----);
+    color: #000;
+}
+
+.intro_head {
+    font-size: 1.25rem;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.intro_title {
+    text-indent: 2rem;
+    margin: auto;
+    max-width: 1000px;
+    width: 85%;
+    text-align: center;
+}
+
+.title_line {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.line {
+    margin: auto;
+    max-width: 800px;
+    width: 70%;
+    height: 1px;
+    border: #000 solid .1px;
+}
+
 /* ========BANNER AREA =========== */
 
 
