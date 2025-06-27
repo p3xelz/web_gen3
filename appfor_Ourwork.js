@@ -46,3 +46,21 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " list_active";
   });
 }
+
+document.getElementById("Btn_other").addEventListener("click", function () {
+    const content = document.querySelector(".content_container1");
+    const buttonText = this.querySelector("p");
+
+    // เช็คสถานะปัจจุบัน
+    if (content.style.height === "100%" && content.style.overflow === "auto") {
+        // กลับสู่สถานะเดิม
+        content.style.height = "99vh";
+        content.style.overflow = "hidden";
+        buttonText.textContent = "เพิ่มเติม";
+    } else {
+        // ขยายเต็ม
+        content.style.height = "100%";
+        content.style.overflow = "auto";
+        buttonText.textContent = "กลับ";
+    }
+});

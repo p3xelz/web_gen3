@@ -162,10 +162,18 @@
 
 
 /* ========= CONTENT AREA ======== */
-.head_text{
-    font-size: 1.75rem;
-    color: #001219;
+.head_text h1{
+    font-size: 2.75rem;
+    color: var(--black-blue--);
     text-align: center;
+}
+.head_text p {
+    font-size: 14px;
+    text-align: center;
+}
+.section_1{
+    padding: 30px;
+    background: var(--light-gray--);
 }
 /* ========= CONTENT AREA ======== */
 

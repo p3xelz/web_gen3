@@ -133,10 +133,10 @@
         display: inline-flex;
     }
     #check:checked ~ #menu {
-        display: none;
+        display: block;
     }
     #menu{
-        display: block;
+        display: none;
         position: absolute;
         padding: 0 5%;
         top: 100%;
@@ -162,7 +162,22 @@
 
 
 /* ========= CONTENT AREA ======== */
+.section_1{
+    background: var(--light-gray--);
+    padding: 30px;
+}
+.head_text h1{
+    font-size: 2.75rem;
+    color: var(--black-blue--);
+    text-align: center;
+}
+.head_text p {
+    font-size: 14px;
+    color: #001219;
+    text-align: center;
+}
 .content_container1 {
+    display: none;
     width: 100%;
     background: var(--light-gray--);
     text-align: center;
