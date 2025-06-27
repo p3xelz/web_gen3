@@ -164,6 +164,11 @@
 
 
 /* ========CONTACT AREA =========== */
+section{
+    background: var(--light-gray--);
+    padding: 20px 0;
+}
+
 .contact_main {
     display: flex;
     margin: auto;
