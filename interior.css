@@ -175,7 +175,6 @@
 .head_content{
     font-size: 2.75rem;
     color: #001219;
-    margin-bottom: 20px;
 }
 .head_content span {
     color: var(--blue-main--);

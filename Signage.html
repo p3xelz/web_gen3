@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signage</title>
-    <link rel="stylesheet" href="signage.css">
+    <title>Media</title>
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -15,22 +15,17 @@
     <!-- ==============NAV============= -->
     <nav class="navigation">
         <div class="container_nav">
-            <!--============================= LOGO IMAGE ==================================-->
             <div class="container_logo">
                 <a href="index.html"><img src="images/RICCO65.png" width="125px"></a>
             </div>
-            <!--============================= LOGO IMAGE ==================================-->
             <input type="checkbox" id="check">
             <label for="check" class="hamberger">
-                <!-- ============================ HAMBERGER ================================== -->
                 <i id="menu-icon" class="ri-menu-line"></i>
-                <!-- ============================ HAMBERGER ================================== -->
             </label>
             <div id="menu">
                 <ul class="menu_list">
                     <li class="list"><a href="index.html">Home</a></li>
                     <li class="list"><a href="Aboutus.html">About Company</a></li>
-                    <!-- ========================= DROPDOWN ============================== -->
                     <li class="list dropdown">
                         <a href="OurWork.html">Our Work<i class="ri-arrow-down-s-fill"></i></a>
                         <div class="dropdown_content_ourwork">
@@ -42,7 +37,7 @@
                             </ul>
                         </div>
                     </li>
-                    <!-- ========================= DROPDOWN ============================== -->
+
                     <li class="list"><a href="contact.html">Contact</a></li>
                     <li class="list dropdown1">
                         <a href="#">TH<i class="ri-arrow-down-s-fill"></i></a>
@@ -71,105 +66,103 @@
 
 
     <!-- ======== CONTENT AREA =========-->
-    <!-- ======== CONTENT AREA =========-->
-    <style>
-        .body {
-            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-            font-size: 14px;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            max-width: 1300px;
-            width: 90%;
-            height: 100%;
-            margin: 0 auto;
-        }
-
-        .swiper {
-            width: 100%;
-            padding-top: 30px;
-            padding-bottom: 50px;
-        }
-
-        .swiper-slide {
-            background-position: center;
-            background-size: cover;
-            max-width: 720px;
-            max-height: 480px;
-        }
-
-        .swiper-slide img {
-            display: block;
-            width: 720px;
-            height: 480px;
-            object-fit: cover;
-        }
-
-        @media (max-width:1000px) {
-            .swiper-slide img {
-                width: 500px;
-                height: 360px;
-            }
-
-            .swiper-slide {
-                width: 500px;
-                height: 360px;
-            }
-        }
-
-        @media (max-width:768px) {
-            .swiper-slide img {
-                width: 450px;
-                height: 310px;
-            }
-
-            .swiper-slide {
-                width: 450px;
-                height: 310px;
-            }
-
-            .swiper-pagination {
-                display: none;
-            }
-        }
-
-        @media (max-width:600px) {
-            .swiper-slide img {
-                width: 380px;
-                height: 250px;
-            }
-
-            .swiper-slide {
-                width: 380px;
-                height: 250px;
-            }
-
-            .body {
-                width: 100%;
-            }
-        }
-
-        @media (max-width:375px) {
-            .swiper-slide img {
-                width: 360px;
-                height: 230px;
-            }
-
-            .swiper-slide {
-                width: 360px;
-                height: 230px;
-            }
-
-            .body {
-                width: 100%;
-            }
-        }
-    </style>
-    <section class="section_1">
-        <div class="head_text">
-            <h1>Signage</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, beatae.</p>
+    <div class="content_container1">
+        <div class="content_head">
+            <h1 class="head_content"><span>Signage</span></h1>
+            <p class="title_content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, placeat.</p>
         </div>
+        <style>
+            .body {
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                color: #fff;
+                margin: 0;
+                padding: 0;
+                max-width: 1300px;
+                width: 90%;
+                height: 100%;
+                margin: 0 auto;
+                margin-bottom: 50px;
+            }
+
+            .swiper {
+                width: 100%;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+
+            .swiper-slide {
+                background-position: center;
+                background-size: cover;
+                max-width: 720px;
+                max-height: 480px;
+                margin-bottom: 10px;
+            }
+
+            .swiper-slide img {
+                display: block;
+                width: 720px;
+                height: 480px;
+                object-fit: cover;
+            }
+
+
+            @media (max-width:1000px) {
+                .swiper-slide img {
+                    width: 500px;
+                    height: 360px;
+                }
+
+                .swiper-slide {
+                    width: 500px;
+                    height: 360px;
+                }
+            }
+
+            @media (max-width:768px) {
+                .swiper-slide img {
+                    width: 450px;
+                    height: 310px;
+                }
+
+                .swiper-slide {
+                    width: 450px;
+                    height: 310px;
+                }
+
+                .swiper-pagination {
+                    display: none;
+                }
+            }
+
+            @media (max-width:600px) {
+                .swiper-slide img {
+                    width: 380px;
+                    height: 250px;
+                }
+
+                .swiper-slide {
+                    width: 380px;
+                    height: 250px;
+                }
+
+                .body {
+                    width: 100%;
+                }
+            }
+
+            @media (max-width:375px) {
+                .swiper-slide img {
+                    width: 350px;
+                    height: 220px;
+                }
+
+                .swiper-slide {
+                    width: 350px;
+                    height: 220px;
+                }
+            }
+        </style>
         <div class="body">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -231,333 +224,9 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-    </section>
-    <!-- ======== CONTENT AREA =========-->
-    <div class="content_container1">
-        <div class="content_head">
-            <h1 class="head_content">Signage</h1>
-            <p class="title_content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, placeat.</p>
-        </div>
-        <div class="con_slides">
-            <i id="btn_back" class="ri-arrow-left-s-line"></i>
-            <div class="column_product">
-
-                <!-- ============================================ IMAGE ======================================== -->
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (1).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (2).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (3).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (4).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (5).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (6).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (7).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (8).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (9).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (10).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (11).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (12).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (13).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (14).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (15).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (16).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (17).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (18).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (19).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (20).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (21).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (22).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (23).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (24).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (25).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (26).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (27).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (28).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (29).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (30).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (31).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (32).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (33).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (35).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (36).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-
-                <div class="container_image">
-                    <span>
-                        <img src="display/แนวนอน/แนวนอน (37).jpg" class="image">
-                        <div class="overlay"></div>
-                        <div class="text">title</div>
-                    </span>
-                </div>
-                <!-- ============================================ IMAGE ======================================== -->
-
-
-            </div>
-            <i id="btn_next" class="ri-arrow-right-s-line"></i>
-        </div>
     </div>
-    <div class="preview-box">
-        <div class="details">
-            <span class="title-preview">
-                Image <p class="current-img"></p>
-                of <p class="total-img"></p>
-            </span>
-            <span class="icon_preview"><i class="ri-close-large-line"></i></span>
-        </div>
-        <div class="img-box">
-            <div class="slide prev">
-                <i class="ri-arrow-left-s-line"></i>
-            </div>
-            <div class="slide next">
-                <i class="ri-arrow-right-s-line"></i>
-            </div>
-            <img class="preview-img-main" src="" alt="">
-        </div>
     </div>
-    <div class="shadow_background"></div>
     <!-- ======== CONTENT AREA =========-->
-
 
 
 
@@ -638,6 +307,7 @@
             },
         });
     </script>
+    <script src="appfor_AlGallery.js"></script>
     <script src="appfor_AllGallery.js"></script>
 </body>
 

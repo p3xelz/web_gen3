@@ -161,36 +161,16 @@
 /* ==============NAV================ */
 
 
-/* ========= CONTENT AREA ======== */
-.head_text h1{
-    font-size: 2.75rem;
-    color: var(--black-blue--);
-    text-align: center;
-}
-.head_text p{
-    font-size: 14px;
-    color: #001219;
-    text-align: center;
-}
-.section_1{
-    background: var(--light-gray--);
-    padding: 30px;
-}
 .content_container1 {
-    display: none;
     width: 100%;
     background: var(--light-gray--);
     text-align: center;
     align-content: center;
     padding: 20px 0;
 }
-.content_head{
-    display: none;
-}
 .head_content{
     font-size: 2.75rem;
     color: #001219;
-    margin-bottom: 20px;
 }
 .head_content span {
     color: var(--blue-main--);
@@ -202,7 +182,7 @@
 .con_slides{
     width: 90%;
     max-width: 1500px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -385,6 +365,7 @@
     }
 }
 /* ========= CONTENT AREA ======== */
+
 
 
 
