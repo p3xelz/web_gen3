@@ -151,6 +151,9 @@
     .dropdown:hover .dropdown_content_ourwork {
         display: inline-flex;
     }
+        .container_logo{
+        width: 125px;
+    }
 }
 
 /* ==============NAV================ */
