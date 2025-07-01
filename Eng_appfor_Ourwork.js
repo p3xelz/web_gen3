@@ -61,6 +61,6 @@ document.getElementById("Btn_other").addEventListener("click", function () {
         // ขยายเต็ม
         content.style.height = "100%";
         content.style.overflow = "auto";
-        buttonText.textContent = "Back";
+        buttonText.textContent = "Hide";
     }
 });
