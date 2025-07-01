@@ -218,6 +218,10 @@
     align-content: center;
 }
 
+.con_overlay img {
+    width: 20%;
+}
+
 .con_overlay h1 span {
     font-size: 3.25rem;
     font-family: "Orbitron", sans-serif;
@@ -282,6 +286,7 @@
 }
 
 .slider .dots li {
+    cursor: pointer;
     list-style: none;
     width: 10px;
     height: 10px;
