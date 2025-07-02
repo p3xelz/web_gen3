@@ -494,8 +494,8 @@
 }
 
 .head_content span{
-    font-family: "Orbitron", sans-serif;
-    font-weight: 900;
+    /* font-family: "Orbitron", sans-serif;
+    font-weight: 900; */
 }
 
 .title_content {
@@ -562,7 +562,7 @@
 .text-title p {
     color: #000;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     transition: .4s;
 }
@@ -624,8 +624,8 @@
     margin-bottom: 20px;
 }
 .head_content2 span{
-    font-family: "Orbitron", sans-serif;
-    font-weight: 900;
+    /* font-family: "Orbitron", sans-serif;
+    font-weight: 900; */
 }
 
 .column_client {
@@ -645,7 +645,6 @@
     transition: .4s;
     opacity: .5;
 }
-
 @media (max-width:768px) {
     .column_client {
         grid-template-columns: 1fr 1fr 1fr;
@@ -677,8 +676,8 @@
     margin-bottom: 10px;
 }
 .head_contact span{
-    font-family: "Orbitron", sans-serif;
-    font-weight: 900;
+    /* font-family: "Orbitron", sans-serif;
+    font-weight: 900; */
 }
 
 .icons a,
@@ -704,6 +703,28 @@
 .icon i {
     color: #000;
     font-size: 30px;
+    transition: .4s ease;
+}
+
+.icon #facebook:hover{
+    color: #18459b;
+    transition: .3s ease;
+}
+
+.icon #line:hover{
+    color: #00C300;
+    transition: .3s ease;
+}
+
+.icon #youtube:hover{
+    color: 	#FF0000;
+    transition: .3s ease;
+}
+
+.icon #tiktok:hover{
+    color: 	#010101;
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: .3s ease;
 }
 
 .icon p {
