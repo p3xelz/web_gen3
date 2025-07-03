@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media</title>
+    <title>RICCO65 | MEDIA</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -16,7 +17,7 @@
     <nav class="navigation">
         <div class="container_nav">
             <div class="container_logo">
-                <a href="index.html"><img src="images/Ricco65 logo.png" width="220px"></a>
+                <a href="index.html"><img src="images/Logo Ricco65.png" width="220px"></a>
             </div>
             <input type="checkbox" id="check">
             <label for="check" class="hamberger">
@@ -135,81 +136,81 @@
             }
 
             @media (max-width:600px) {
-                .swiper-slide img {
-                    width: 380px;
-                    height: 250px;
-                }
-
-                .swiper-slide {
-                    width: 380px;
-                    height: 250px;
-                }
-
-                .body {
-                    width: 100%;
-                }
-
-                .section_1 {
-                    padding: 0;
-                }
+            .swiper-slide img {
+                width: 380px;
+                height: 250px;
             }
 
-            @media (max-width:400px) {
-                .swiper-slide img {
-                    width: 290px;
-                    height: 190px;
-                }
-
-                .swiper-slide {
-                    width: 290px;
-                    height: 190px;
-                }
-
-                .body {
-                    width: 100%;
-                }
+            .swiper-slide {
+                width: 380px;
+                height: 250px;
             }
+
+            .body {
+                width: 100%;
+            }
+
+            .section_1{
+                padding: 0;
+            }
+        }
+
+        @media (max-width:400px) {
+            .swiper-slide img {
+                width: 290px;
+                height: 190px;
+            }
+
+            .swiper-slide {
+                width: 290px;
+                height: 190px;
+            }
+
+            .body {
+                width: 100%;
+            }
+        }
         </style>
         <div class="body">
             <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                <div class="swiper-wrapper gallery">
+                    <div class="swiper-slide image">
                         <img src="media/(1).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(2).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(3).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(4).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(5).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(6).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(7).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(8).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(9).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(10).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(11).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(12).jpg" />
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide image">
                         <img src="media/(13).jpg" />
                     </div>
                 </div>
@@ -217,7 +218,18 @@
             </div>
         </div>
     </div>
+    <div class="preview-box">
+        <div class="details">
+            <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+            <span class="icon"><i class="ri-close-large-fill"></i></span>
+        </div>
+        <div class="image-box">
+            <div class="slide prev"><i class="ri-arrow-left-s-line"></i></div>
+            <div class="slide next"><i class="ri-arrow-right-s-line"></i></div>
+            <img src="" alt="">
+        </div>
     </div>
+    <div class="shadow"></div>
     <!-- ======== CONTENT AREA =========-->
 
 
